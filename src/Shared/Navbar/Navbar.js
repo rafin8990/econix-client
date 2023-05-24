@@ -70,6 +70,12 @@ const Navbar = () => {
                             <li className="text-gray-600 hover:text-blue-600">
                                 <Link to='/contact'>Contact US</Link>
                             </li>
+                            <li className="text-gray-600 hover:text-blue-600">
+                                <Link to='/login'>Login</Link>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
+                                <Link to='/register'>Sign Up</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

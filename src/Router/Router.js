@@ -3,6 +3,10 @@ import Main from "../Layouts/Main/Main";
 import Home from "../Pages/HomePage/Home/Home";
 import Login from "../Shared/Login/Login";
 import Register from "../Shared/Register/Register";
+import Blog from "../Pages/Blog/Blog";
+import Contact from "../Pages/Contact/Contact";
+import About from "../Pages/About/About";
+import Product from "../Pages/Products/Product";
 
 export const router=createBrowserRouter([
     {
@@ -20,6 +24,22 @@ export const router=createBrowserRouter([
             {
                 path:'register',
                 element:<Register></Register>
+            },
+            {
+                path:'/blog',
+                element:<Blog></Blog>
+            },
+            {
+                path:'/contact',
+                element:<Contact></Contact>
+            },
+            {
+                path:'/about',
+                element:<About></About>
+            },
+            {
+                path:'/product',
+                element:<Product></Product>
             }
         ]
     }
