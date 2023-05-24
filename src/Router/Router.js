@@ -7,6 +7,7 @@ import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
 import About from "../Pages/About/About";
 import Product from "../Pages/Products/Product";
+import ProductDetails from "../Pages/ProductDetails/ProductDetails";
 
 export const router=createBrowserRouter([
     {
@@ -40,6 +41,10 @@ export const router=createBrowserRouter([
             {
                 path:'/product',
                 element:<Product></Product>
+            },
+            {
+                path:'/productsDetails',
+                element:<ProductDetails></ProductDetails>
             }
         ]
     }

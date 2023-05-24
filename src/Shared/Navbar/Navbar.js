@@ -62,6 +62,9 @@ const Navbar = () => {
                                 <Link to='/'>Home</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
+                                <Link to='/product'>Products</Link>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
                                 <Link to='/blog'>Blog</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
@@ -72,9 +75,6 @@ const Navbar = () => {
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
                                 <Link to='/login'>Login</Link>
-                            </li>
-                            <li className="text-gray-600 hover:text-blue-600">
-                                <Link to='/register'>Sign Up</Link>
                             </li>
                         </ul>
                     </div>
