@@ -28,6 +28,12 @@ const Register = () => {
                         </div>
                         <div className="form-control w-full ">
                             <label className="label">
+                                <span className="label-text text-2xl">Mobile Number:</span>
+                            </label>
+                            <input type="text" placeholder="Enter Mobile no with country code" className="input input-bordered w-full text-xl " />
+                        </div>
+                        <div className="form-control w-full ">
+                            <label className="label">
                                 <span className="label-text text-2xl">Email:</span>
                             </label>
                             <input type="email" placeholder="Example@gmail.com" className="input input-bordered w-full text-xl " />
@@ -41,7 +47,7 @@ const Register = () => {
                                 <p>Already Have An Account? <Link to='/login' className='text-green-500'>Please Login</Link></p>
                             </label>
                         </div>
-                        <button className='btn w-full rounded-2xl mt-10'>Continue</button>
+                        <button className='btn w-full rounded-2xl mt-10'>Register</button>
                     </form>
                 </div>
             </div>

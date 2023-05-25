@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo (2).png'
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -72,6 +73,15 @@ const Navbar = () => {
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
                                 <Link to='/contact'>Contact US</Link>
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600">
+                                <label htmlFor="my-modal-3">
+                                    <div className="indicator">
+                                        <span className="indicator-item badge badge-primary">3</span>
+                                        <div className="grid w-10 h-10 bg-base-300 place-items-center"><FaShoppingCart></FaShoppingCart></div>
+                                    </div>
+                                </label>
+
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
                                 <Link to='/login'>Login</Link>

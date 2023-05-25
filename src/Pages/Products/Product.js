@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import GetProducts from './GetProducts';
+import CartModal from '../CartModal/CartModal';
 
 const Product = () => {
     const [products, setProducts] = useState([]);
@@ -14,6 +15,7 @@ const Product = () => {
     }, [])
     return (
         <div className=''>
+            <CartModal></CartModal>
             <div className='lg:w-[1440px] mx-auto md:w-1/2 md:my-20'>
                 <h1 className='text-2xl lg:text-4xl font-bold'>Men And Women Collection</h1>
                 <p className='text-gray-500 text-xl'>We not only help you design exceptional products, but also make it easy for you to share your designs with more like-minded people.</p>

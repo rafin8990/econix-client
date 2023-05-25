@@ -1,10 +1,12 @@
 import React from 'react';
 import Earn from '../HomePage/Earn/Earn';
 import { FaFacebook, FaTelegram, FaTwitter, FaYoutube } from "react-icons/fa";
+import CartModal from '../CartModal/CartModal';
 
 const Contact = () => {
     return (
         <div className='lg:w-[1440px] mx-auto'>
+            <CartModal></CartModal>
             <h1 className='text-2xl md:text-6xl font-bold text-center my-10'>Contact</h1>
             <div className='md:flex justify-around items-center'>
                 <div className='lg:w-1/2'>

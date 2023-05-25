@@ -6,10 +6,12 @@ import blog3 from '../../assets/Blog/blog3.webp'
 import ads from '../../assets/Blog/ads.webp'
 import user from '../../assets/Blog/user.jpeg'
 import Offer from '../HomePage/Offer/Offer';
+import CartModal from '../CartModal/CartModal';
 
 const Blog = () => {
     return (
         <div className='w-[1440px] mx-auto'>
+            <CartModal></CartModal>
             <div className='lg:flex mt-10'>
                 <div>
                     <div>

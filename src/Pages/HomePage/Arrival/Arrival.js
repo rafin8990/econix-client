@@ -3,6 +3,7 @@ import { FcRating } from "react-icons/fc";
 import product1 from '../../../assets/sport-2.webp'
 import product2 from '../../../assets/sport-6.webp'
 import product3 from '../../../assets/bag.webp'
+import { Link } from 'react-router-dom';
 
 const Arrival = () => {
     return (
@@ -19,7 +20,7 @@ const Arrival = () => {
                             <p className='text-2xl text-gray-400 flex items-center'><FcRating></FcRating> 4.5(98 reviews)</p>
                         </div>
                         <div className="card-actions">
-                            <button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">Buy Now</button>
+                        <Link to='/productsDetails'><button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">View Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -33,7 +34,7 @@ const Arrival = () => {
                             <p className='text-2xl text-gray-400 flex items-center'><FcRating></FcRating> 4.5(98 reviews)</p>
                         </div>
                         <div className="card-actions">
-                            <button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">Buy Now</button>
+                        <Link to='/productsDetails'><button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">View Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -47,7 +48,7 @@ const Arrival = () => {
                             <p className='text-2xl text-gray-400 flex items-center'><FcRating></FcRating> 4.5(98 reviews)</p>
                         </div>
                         <div className="card-actions">
-                            <button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">Buy Now</button>
+                        <Link to='/productsDetails'><button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">View Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -61,7 +62,7 @@ const Arrival = () => {
                             <p className='text-2xl text-gray-400 flex items-center'><FcRating></FcRating> 4.5(98 reviews)</p>
                         </div>
                         <div className="card-actions">
-                            <button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">Buy Now</button>
+                        <Link to='/productsDetails'><button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">View Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -75,7 +76,7 @@ const Arrival = () => {
                             <p className='text-2xl text-gray-400 flex items-center'><FcRating></FcRating> 4.5(98 reviews)</p>
                         </div>
                         <div className="card-actions">
-                            <button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">Buy Now</button>
+                        <Link to='/productsDetails'><button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">View Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -89,13 +90,13 @@ const Arrival = () => {
                             <p className='text-2xl text-gray-400 flex items-center'><FcRating></FcRating> 4.5(98 reviews)</p>
                         </div>
                         <div className="card-actions">
-                            <button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">Buy Now</button>
+                            <Link to='/productsDetails'><button className="btn bg-green-100 hover:bg-green-100 text-black hover:text-black border-none w-full ">View Details</button></Link>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='flex justify-center my-10'>
-                <button className='btn btn-outline btn-success'>Shop More </button>
+                <Link to='/product'> <button className='btn btn-outline btn-success'>Shop More </button></Link>
             </div>
         </div>
     );

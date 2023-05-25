@@ -34,7 +34,7 @@ const Login = () => {
                             <p>New To Econix? <Link to='/register' className='text-green-500'>Please Register First</Link></p>
                         </label>
                     </div>
-                    <button className='btn w-full rounded-2xl mt-10'>Continue</button>
+                    <button className='btn w-full rounded-2xl mt-10'>Login</button>
                 </form>
             </div>
         </div>

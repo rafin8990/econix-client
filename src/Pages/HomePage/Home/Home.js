@@ -8,11 +8,12 @@ import Special from '../Special/Special';
 import BestSeller from '../BestSeller/BestSeller';
 import ShopByDep from '../ShopByDep/ShopByDep';
 import Offer from '../Offer/Offer';
+import CartModal from '../../CartModal/CartModal';
 
 const Home = () => {
     return (
         <div>
-
+            <CartModal></CartModal>
             <Header></Header>
             <Discover></Discover>
             <Arrival></Arrival>
