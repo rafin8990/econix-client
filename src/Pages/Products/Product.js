@@ -6,7 +6,7 @@ const Product = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('product.json')
+        fetch('https://econix-server.vercel.app/products')
             .then(res => res.json())
             .then(data => {
                 console.log(data);
